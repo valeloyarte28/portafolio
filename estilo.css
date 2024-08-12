@@ -1,0 +1,144 @@
+body {
+        background-image: url('/Users/valentinaloyarte/Desktop/Fase 2/Semana 3/Taller 3.3/img/fondo.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center center;
+}
+*{
+  font: 1em/1.3 trebuchet MS, lucida, georgia;
+}
+   
+    .titulo {
+      font-size: 56px;
+      color: #a151ca;
+      text-align: center;
+  
+    }
+
+      #contenedor {
+        display: flex;
+        align-items: center;
+      }
+    
+    #contenedor img {
+        margin-right: 20px;
+    }
+
+
+    h1 {
+        display: block;
+        color: #a151ca;
+        font-size: 2em;
+      }
+
+      p {
+        color:#645d5d
+      }
+
+      h2 {
+        color: #a151ca;
+
+      }
+
+    
+    .mi-tabla {
+        border-collapse: collapse;
+        width: 50%;
+        background-color: #dab6fc; 
+        border-radius: 10px;
+        overflow: hidden; 
+        margin: 15px 0;
+    }
+    
+    .mi-tabla td {
+        border: 1px solid #fff;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .mi-tabla tr:first-child td:first-child {
+        border-top-left-radius: 10px;
+    }
+    
+    .mi-tabla tr:first-child td:last-child {
+        border-top-right-radius: 10px;
+    }
+    
+    .mi-tabla tr:last-child td:first-child {
+        border-bottom-left-radius: 10px;
+    }
+    
+    .mi-tabla tr:last-child td:last-child {
+        border-bottom-right-radius: 10px;
+    }
+    
+    .titulo-centrado {
+      text-align: center;
+  }
+
+
+      .parrafo {
+        font-size: 16px;
+        color: #645d5d;
+        line-height: 1.5;
+    }
+    .formulario-centrado {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 400px; /* Ajusta el ancho máximo del formulario si es necesario */
+  }
+  
+  .formulario-centrado p, 
+  .formulario-centrado textarea, 
+  .formulario-centrado div {
+      width: 100%;
+      text-align: center;
+  }
+  
+  .boton {
+      display: inline-block;
+      padding: 5px 10px;
+      background-color: #ced4db;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+      margin-top: 10px; 
+  }
+  
+  .boton:hover {
+      background-color: #a151ca;
+  }
+
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacto-item p, 
+.contacto-item a {
+    margin: 0;
+}
+
+  
+
+
+
+
+
+
+
